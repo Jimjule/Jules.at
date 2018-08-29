@@ -86,7 +86,7 @@
 
 #main-margin {
   position: relative;
-  height: 5vw;
+  height: 10vw;
   background-color: #FFFFFF;
 }
 
@@ -221,7 +221,12 @@ table {
   </div>  
   <div id = "main3a">
     <h2>Contact Me</h2>
-    <p>Contact Form</p>
+    <form action="/action_page.php" method = "get">
+  Name: <br><input type = "text" name = "visitorName"><br>
+  Email: <br><input type = "text" name="visitorEmail"><br>
+      Message: <br><textarea name = "visitorMessage" rows = "4"></textarea><br>   
+  <input type="submit" value="Submit">
+</form>
   </div>
     <a href = "#top"><div id =         "back-to-top">↑</div></a>
   </div>
